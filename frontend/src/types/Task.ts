@@ -1,7 +1,7 @@
 import { TaskStatus } from "./TaskStatus";
 
 export type Task = {
-  id: string;
+  id: number;
   name: string;
   dueDate: string;
   status: TaskStatus;

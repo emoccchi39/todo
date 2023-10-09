@@ -13,7 +13,7 @@ import { createTheme, ThemeProvider } from "@mui/material/styles";
 import { useState } from "react";
 import { useMutation } from "@apollo/client";
 import { SIGN_IN, SIGN_UP } from "../mutations/authMutations";
-import { User } from "../types/user";
+import { User } from "../types/User";
 import { SignInResponce } from "../types/signInResponce";
 import { useNavigate } from "react-router-dom";
 
